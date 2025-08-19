@@ -1,0 +1,72 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.vcard-container {
+  text-align: center;
+}
+
+.vcard {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  max-width: 350px;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  margin: 10px 0 5px;
+  font-size: 24px;
+  color: #333;
+}
+
+.role {
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+.contact-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.whatsapp { background: #25D366; }
+.email { background: #0072C6; }
+.wechat { background: #2DC100; }
+
+.btn:hover { opacity: 0.85; }
+
+.download-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #333;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.download-btn:hover { background: #555; }
